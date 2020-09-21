@@ -15,7 +15,7 @@ use Illuminate\Http\Request;
 
 
 Route::get('/', function () {
-    return view('hi');
+    return view('welcome');
 });
 
 Route::get('/form', function() {
