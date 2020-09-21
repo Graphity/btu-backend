@@ -22,7 +22,7 @@
     </tr>
     <tr>
       @foreach ($newdata as $data)
-	<td>{{ $data }}</td>
+        <td>{{ $data }}</td>
       @endforeach
     </tr>
   </table
